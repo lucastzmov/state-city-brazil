@@ -1,12 +1,8 @@
-# state-city-brazil
+# state-city-brazil ![version](https://img.shields.io/npm/v/state-city-brazil) ![bundle](https://img.shields.io/bundlephobia/min/state-city-brazil) ![license](https://img.shields.io/npm/l/state-city-brazil)
 
 Get the information of the states and cities of Brazil.
 
-#
-
 ## How to install
-
-#
 
 ### Yarn
 
@@ -20,8 +16,6 @@ yarn add state-city-brazil
 npm install --save state-city-brazil
 ```
 
-#
-
 # Available methods
 
 | Method           | Params |           Description           |
@@ -29,8 +23,6 @@ npm install --save state-city-brazil
 | getStates        | -      |  returns all states of brazil   |
 | getStatesByCity  | string | returns all states by city name |
 | getCitiesByState | string |  returns all cities in a state  |
-
-#
 
 # How to use
 
@@ -41,8 +33,6 @@ var state_city_brazil = require('state_city_brazil');
 
 console.log(state_city_brazil.getStates());
 ```
-
-#
 
 ### ES6
 
@@ -55,8 +45,6 @@ import {
 
 console.log(getStates());
 ```
-
-#
 
 # Contributing
 
